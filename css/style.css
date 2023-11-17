@@ -1,0 +1,44 @@
+*{
+    padding:0;
+   
+}
+.main{
+    width:100%;
+    height:100vh; 
+    background-image: url(https://img.freepik.com/premium-vector/golden-fireworks-arc-illustration_264875-3.jpg);
+}
+.counter{
+    width: 90%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    margin: 0 auto;
+}
+.box{
+    width: 56px;
+    height: 86px;
+    background-color: #ffff50d4;
+    padding: 7px;
+    margin: 4px;
+    text-align: center;
+    border-radius: 180px;
+   
+}
+small{
+    margin-bottom: 12px;
+}
+
+@media (min-width:576px){
+    .counter{
+        width:95%;
+    }
+    .box{
+        width:100px;
+        height:109px;
+        padding: 20px;
+    margin: 20px;
+    }
+}
